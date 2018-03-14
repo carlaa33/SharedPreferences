@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 SharedPreferences sharprefs = getPreferences(context.MODE_PRIVATE);
                 String valor = sharprefs.getString("MiDato","No hay dato");
                 Toast.makeText(getApplicationContext(),"Datos guardados:"+valor,Toast.LENGTH_LONG).show();
-                
+
 
 
             }
